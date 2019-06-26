@@ -23,26 +23,7 @@ module.exports = function(htmlText, wndw) {
   wndw = wndw || window;
 
   // set default styles
-  var defaultStyles = {
-    b: {bold:true},
-    strong: {bold:true},
-    u: {decoration:'underline'},
-    em: {italics:true},
-    i: {italics:true},
-    h1: {fontSize:24, bold:true, marginBottom:5},
-    h2: {fontSize:22, bold:true, marginBottom:5},
-    h3: {fontSize:20, bold:true, marginBottom:5},
-    h4: {fontSize:18, bold:true, marginBottom:5},
-    h5: {fontSize:16, bold:true, marginBottom:5},
-    h6: {fontSize:14, bold:true, marginBottom:5},
-    a: {color:'blue', decoration:'underline'},
-    strike: {decoration: 'lineThrough'},
-    p: {margin:[0, 5, 0, 10]},
-    ul: {marginBottom:5},
-    li: {marginLeft:5},
-    table: {marginBottom:5},
-    th: {bold:true, fillColor:'#EEEEEE'}
-  }
+  var defaultStyles = { };
 
   /**
    * Takes an HTML string, converts to HTML using a DOM parser and recursivly parses
